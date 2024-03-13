@@ -1,0 +1,38 @@
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.main{
+    background-color:blanchedalmond;
+    padding: 2rem; 
+}
+
+.input-container{
+    display: flex;
+    padding: 2rem;
+    /* gap: 1rem; */
+}
+
+.input-text{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.btn{
+    background-color: rgb(24, 119, 228);
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.btn:hover{
+    background-color: rgb(21, 95, 181);
+    color: #FFFFFF;
+}
